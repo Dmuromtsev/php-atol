@@ -6,4 +6,18 @@ $ php composer.phar require dmuromtsev/php-atol
 
 ## Использование
 
-use LireinCore\YMLParser\YML;
+use dmuromtsev\phpAtol\Atol;
+
+$A = new Atol( 'login', 'password', 'group_code' );
+
+//Регистрация документа
+$A->send('operation_type', array('params'));
+
+
+//Получение результата обработки документа
+$A->check( 'uuid' );
+
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
