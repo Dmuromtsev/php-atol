@@ -1,0 +1,17 @@
+{
+  "name": "dmuromtsev/php-atol",
+  "description": "Library for ATOL online API",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dmitry Muromtsev",
+      "email": "muromd@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "classmap": ["src"]
+  }
+}
