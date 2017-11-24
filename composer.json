@@ -1,7 +1,9 @@
 {
   "name": "dmuromtsev/php-atol",
   "description": "Library for ATOL online API",
-  "license": "proprietary",
+  "type": "library",
+  "homepage": "https://github.com/Dmuromtsev/php-atol",
+  "license": "MIT",
   "authors": [
     {
       "name": "Dmitry Muromtsev",
