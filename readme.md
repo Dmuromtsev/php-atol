@@ -11,10 +11,12 @@ use dmuromtsev\phpAtol\Atol;
 $A = new Atol( 'login', 'password', 'group_code' );
 
 //Регистрация документа
+
 $A->send('operation_type', array('params'));
 
 
 //Получение результата обработки документа
+
 $A->check( 'uuid' );
 
 
